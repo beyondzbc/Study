@@ -125,3 +125,16 @@ average_accuracy=sum(accuracies)/len(accuracies)
 print(accuracies)
 print(average_accuracy)
 
+
+
+#sklearn中的cross_val_score（estimator, X, y=None, groups=None, scoring=None, cv=’warn’, n_jobs=None, verbose=0, fit_params=None, pre_dispatch=‘2*n_jobs’, error_score=’raise-deprecating’）
+#其中主要参数含义：
+    #estimator:估计方法对象(分类器)
+    #X：数据特征(Features)
+    #y：数据标签(Labels)
+    #soring：调用方法(包括accuracy和mean_squared_error等等)
+    #cv：几折交叉验证
+    #n_jobs：同时工作的cpu个数（-1代表全部）
+
+
+
