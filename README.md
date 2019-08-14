@@ -1,7 +1,7 @@
 # Study
-Cross_validation
-交叉验证
+Admissions
+逻辑回归和交叉验证
 
 
-auto_mpg
-线性回归
+M_Classification
+多分类
